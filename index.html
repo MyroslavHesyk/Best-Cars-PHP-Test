@@ -6,7 +6,7 @@
 	</head>
 
 	<body>
-<?
+<?php
 //1.підключення БД
 include "start.php";
 //2.перевірка наявності змінної 
@@ -36,7 +36,7 @@ $foto=get_foto($am);
 
 </html>
 
-<?
+<?php
 	function get_action_menu(){
 		$menu=$_GET['menu'];
 		if(!isset($_GET['menu'])){
